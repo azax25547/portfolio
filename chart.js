@@ -61,7 +61,7 @@ AmCharts.makeChart("chartdiv", {
             "Percentages": "200"
         },
         {
-            "country": "Wordpress",
+            "country": "React",
             "Percentages": "100"
         }
     ]

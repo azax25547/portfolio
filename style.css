@@ -1,6 +1,7 @@
 body,html,h1h,h2,h3,h4,h5,h6{
     margin: 0;
     padding:0;
+    font-family:"Dosis", sans-serif;
 }
 #particles-js{ 
     width: 100%;
@@ -17,15 +18,20 @@ body,html,h1h,h2,h3,h4,h5,h6{
     text-shadow:0 0 10px #ffacac;
 }
 .about{
-    font-family: 'Encode Sans Condensed',sans-serif;
+    font-family: 'Dosis',sans-serif;
     font-size:4vh;
 }
 .about span{
-    font-family:'PT Sans',sans-serif;
+    font-family:'Tahoma',sans-serif;
     color: #333;
 }.btn-primary a{
     text-decoration: none;
     color: #fff;
+}
+.section-3{
+    background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #myBtn {
     display: none;
@@ -87,8 +93,9 @@ body,html,h1h,h2,h3,h4,h5,h6{
     -ms-transform: translate(-50%, -50%);
     white-space: nowrap;
   }
-  footer{
-      font-family:'Encode Sans Condensed',sans-serif;
+  footer > *{
+      
+      color:#333;
   }
 @media(max-width:1024px){
     .about{
